@@ -1,5 +1,5 @@
 {
-  "name": "node_race",
+  "name": "metacall-nodejs-race-game-example",
   "version": "0.1.0",
   "dependencies": {
     "express": "~3.3.4",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guillaume-gomez/NodeRace.git"
+    "url": "git+https://github.com/metacall/nodejs-race-game-example.git"
   },
   "keywords": [
     "2d",
@@ -28,7 +28,7 @@
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/guillaume-gomez/NodeRace/issues"
+    "url": "https://github.com/metacall/nodejs-race-game-example/issues"
   },
-  "homepage": "https://github.com/guillaume-gomez/NodeRace#readme"
+  "homepage": "https://github.com/metacall/nodejs-race-game-example#readme"
 }

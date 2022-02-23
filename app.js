@@ -7,7 +7,7 @@ const config = require("./js/config");
 
 // console.log(config);
 
-app.use(express.static(__dirname + '/../client'));
+app.use(express.static(__dirname + '/client'));
 
 app.use('/tracks', express.static(config.tracksDirectory));
 
@@ -258,10 +258,7 @@ app.get('/tracksList.json', function(req, res) {
 });
 
 app.get('/carsList.json', function(req, res) {
-    res.sendfile(config.carsList, {
-        'root': '..'
-    });
-
+    res.sendfile(config.carsList);
 });
 
 app.use(function(req, res, next) {

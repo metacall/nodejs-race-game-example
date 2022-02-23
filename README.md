@@ -1,4 +1,4 @@
-# NodeRace
+# MetaCall NodeJS Race Game Example
 A Network video game to learn basic NodeJs Skills.
 
 This application is an example of what it is possible to do with html5 and websockets.
@@ -13,7 +13,7 @@ This application is an example of what it is possible to do with html5 and webso
 
 To install all those dependencies you need to have nodejs and npm installed.
 
-Then you can go into `server` directory and run :
+Then run:
 ```
 npm install
 ```
@@ -31,13 +31,13 @@ The cars were made by [bagera3005](http://bagera3005.deviantart.com/)
 
 ## Running the application :
 
-In order to run the application go into `server` if you're not already in it and run :
+In order to run the application:
 ```
 node app.js
 ```
 *You may need to run __nodejs__ instead of node depending on your configuration*
 
-Now you have the server running, a text in the terminal should indicate on which **port** it is listening, if you have a conflic you can modify this in [server/config.json](server/config.json) 
+Now you have the server running, a text in the terminal should indicate on which **port** it is listening, if you have a conflic you can modify this in [config.json](config.json) 
 
 Open a browser and go to 127.0.0.1:<**port**> (by default http://127.0.0.1:51510).
 
